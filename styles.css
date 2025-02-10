@@ -2,7 +2,6 @@ body {
     background-image: url("https://github.com/JarodT77/love/blob/main/images/background.png?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     margin: 0;
     font-family: VT323;
     
