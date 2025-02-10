@@ -51,6 +51,7 @@ body {
     background-color: rgba(0, 0, 0, 0.70); 
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 30px;
 
 }
 
@@ -119,6 +120,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 8px;
+    margin-top: 30px;
   }
   
   .custom-alert {
