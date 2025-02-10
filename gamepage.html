@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Game Page</title>
+</head>
+<body>
+    <div class="life-container" id="lifeContainer"></div>
+    <div id="wordContainer" class="word-container"></div>
+    <div class="letters" id="lettersContainer"></div>
+    <div id="customAlert" class="custom-alert hidden">
+        <div class="alert-content">
+          <p id="alertMessage">Bravo ! Tu as deviné la phrase !</p>
+          <button id="closeAlert">OK</button>
+        </div>
+    </div>
+    <div id="customAlertLose" class="custom-alert hidden">
+        <div class="alert-content">
+          <p id="alertLoseMessage">Dommage, tu as perdu ! Essaye encore !</p>
+          <button id="closeAlertLose">Réessayer</button>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
