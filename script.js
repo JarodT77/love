@@ -26,7 +26,7 @@ function loseLife() {
   }
 }
 
-const word = "UNE NUIT A STRASBOURG"; // Le mot à deviner
+const word = "JE VEUX VOIR TON AVOCAT"; // Le mot à deviner
 let guessedLetters = []; // Lettres déjà devinées
 
 function setupWord() {
@@ -56,7 +56,7 @@ function checkLetter(letter) {
     const lettersOnly = word.replace(/ /g, ''); // Supprime les espaces de la vérification
     if (lettersOnly.split('').every(l => guessedLetters.includes(l))) {
       setTimeout(() => {
-        showCustomAlert('Bravo ! Tu as deviné ton cadequ de saint-valentin ! ' + word );
+        showCustomAlert('Bravo ! Tu as deviné le mot secret! ' + word );
   }, 100);
     }
   } else {
