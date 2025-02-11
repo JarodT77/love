@@ -26,7 +26,7 @@ function loseLife() {
   }
 }
 
-const word = "JE VEUX VOIR TON AVOCAT"; // Le mot à deviner
+const word = "JE TE FERAIS L AMOUR DANS LE JACUZZI ET DANS LE SAUNA"; // Le mot à deviner
 let guessedLetters = []; // Lettres déjà devinées
 
 function setupWord() {
