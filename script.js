@@ -26,7 +26,7 @@ function loseLife() {
   }
 }
 
-const word = "MOI AUSSI JE PEUX TE VOiR PENSER A MOI"; // Le mot à deviner
+const word = "MOI AUSSI JE PEUX TE VOIR PENSER A MOI"; // Le mot à deviner
 let guessedLetters = []; // Lettres déjà devinées
 
 function setupWord() {
